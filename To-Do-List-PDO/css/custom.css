@@ -1,0 +1,119 @@
+::-moz-selection {
+color: #5acdb3;
+background: black;
+}
+
+::selection {
+color: #5acdb3;
+background: black;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+background: #131315;
+}
+
+::-webkit-scrollbar-thumb {
+background: #5acdb3;
+}
+
+body,html{
+	font-family: 'Ubuntu', sans-serif;
+	background: url("../img/bg.gif");
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	margin: 0px;
+	color: #fff4cd;
+	position: relative;
+	z-index: -1;
+}
+
+h2, h3{margin: 0px;}
+
+.tema{
+	position: absolute;
+	z-index: 10;
+	left:50%;
+	transform:translateX(-50%);
+	margin: 4em auto;
+	width: 28em;
+	max-width: 100%;
+	padding: 1em;
+}
+
+.hero{
+	padding: 1em;
+	margin-bottom: 5em;
+	border: 1px solid #5acdb3;
+	background:#5acdb3;
+}
+
+.is{margin-bottom: 4em;}
+
+.is_baslik{
+	background:#5acdb3;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.is_baslik, .is_detay, .buton{
+	padding-left: 0.83em;
+}
+.is_detay{
+	border: 1px solid #5acdb3;
+}
+
+.islem_butonlari{margin-top: 1em;}
+
+.buton, .is_detay{
+	background: -webkit-linear-gradient(0deg,transparent 50%,#8395b6 50%);
+	transition: 1s;
+}
+.buton{
+	padding-right: 0.83em;
+	padding-top: 0.40em;
+	padding-bottom: 0.40em;
+	border: 1px solid #5acdb3;
+	color: #5acdb3;
+	text-decoration: none;
+	background-size: 400px 80px;
+}
+
+
+.buton:hover{
+	background-position: 200px 0;
+}
+
+.is_detay{
+	background-size: 58em 80px;
+}
+
+.is_detay:hover{
+	background-position: 28em 0;
+}
+
+input{
+	display: block;
+	width: 95.5%;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	padding-left: 0.83em;
+	border: 1px solid #5acdb3;
+	background: transparent;
+	outline:none;
+}
+
+.mini-modal{
+	background: #fff4cd;
+    border: 10px solid #5acdb3;
+}
+a.renk{
+	text-decoration: none;
+	color: #0074d4;
+	transition: 0.2s;
+	font-weight: bold;
+}
+a.renk:hover{
+	color: #8395b6;
+}
